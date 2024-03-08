@@ -6,13 +6,17 @@ I will focus on analyzing movie reviews to determine their sentiment, aiming to 
 
 Data Collection and Analysis:
 
-I will collect a dataset of movie reviews along with their sentiment labels (positive or negative). The IMDb dataset will be my primary source, but I will also explore other datasets like Amazon Reviews and Yelp Reviews to ensure a comprehensive analysis.
+I collected the dataset of movie reviews along with their sentiment labels (positive or negative) primarily from the Stanford university AI project which is available for public.
 
-Using Python libraries such as pandas and numpy, I will analyze the dataset to understand its structure, quality, and any potential issues. Additionally, I will preprocess the data to handle missing values and convert the text into a suitable format for analysis.
+Using Python libraries such as pandas and numpy, I analyzed the dataset to understand its structure, quality, and any potential issues. Additionally, I preprocessed the data to handle missing values and converted the text into a suitable format for analysis.
+
+During the analysis, it was observed that the dataset contained an equal number of positive and negative movie reviews, as illustrated in the distribution of sentiment labels chart. This balanced distribution is crucial for training machine learning models to ensure unbiased performance evaluation.
+
+Furthermore, the text data was preprocessed to handle missing values and converted into a suitable format for analysis using techniques like tokenization, stop words removal, and TF-IDF vectorization.
 
 Type of Problem:
 
-This is a classification problem where I aim to classify movie reviews as either positive or negative based on their sentiment. To train the model effectively, I will need labeled data where each review is associated with its corresponding sentiment label.
+This is a classification problem where I aim to classify movie reviews as either positive or negative based on their sentiment. To train the model effectively, labeled data where each review is associated with its corresponding sentiment label is required.
 
 Future Considerations:
 
@@ -22,7 +26,33 @@ Furthermore, I will investigate different training platforms and resources such 
 
 Documentation:
 
-This document outlines Step 1 of my project, focusing on the problem description, data collection and analysis, type of problem, and future considerations. Coding in Python and the code base will be uploaded as well as the instruction to test and use it will be uploaded in this repository in the step 2. 
+The project in the first step focused on the problem description, data collection and analysis, type of problem, and future considerations. In the second step, the implementation was done in Jupyter Notebook and Python, please refer to the uploaded code repository.
 
+Following libraries have been used:
+
+os
+matplotlib.pyplot as plt
+seaborn as sns
+pandas as pd
+sklearn.model_selection.train_test_split
+sklearn.feature_extraction.text.TfidfVectorizer
+sklearn.linear_model.LogisticRegression
+sklearn.metrics.accuracy_score
+sklearn.metrics.classification_report
+sklearn.metrics.confusion_matrix
+
+
+
+Reference for dataset: 
+
+  author    = {Maas, Andrew L.  and  Daly, Raymond E.  and  Pham, Peter T.  and  Huang, Dan  and  Ng, Andrew Y.  and  Potts, Christopher},
+  title     = {Learning Word Vectors for Sentiment Analysis},
+  booktitle = {Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies},
+  month     = {June},
+  year      = {2011},
+  address   = {Portland, Oregon, USA},
+  publisher = {Association for Computational Linguistics},
+  pages     = {142--150},
+  url       = {http://www.aclweb.org/anthology/P11-1015}
 
 
