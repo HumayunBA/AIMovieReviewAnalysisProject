@@ -45,6 +45,8 @@ sklearn.metrics.confusion_matrix
 
 Reference for dataset: 
 
+  Link: https://ai.stanford.edu/~amaas/data/sentiment/
+
   author    = {Maas, Andrew L.  and  Daly, Raymond E.  and  Pham, Peter T.  and  Huang, Dan  and  Ng, Andrew Y.  and  Potts, Christopher},
   title     = {Learning Word Vectors for Sentiment Analysis},
   booktitle = {Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies},
